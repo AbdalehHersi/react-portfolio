@@ -2,7 +2,9 @@ import React from "react";
 
 function Projects() {
     return (
-        <button>Projects</button>
+        <div>
+            <p>Projects</p>
+        </div>
     )
 }
 
