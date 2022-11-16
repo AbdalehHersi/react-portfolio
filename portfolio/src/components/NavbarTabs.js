@@ -1,8 +1,9 @@
 import React from "react";
+import "../Header.css"
 
 function NavbarTabs({ handlePageChange }) {
     return (
-        <ul>
+        <ul className="navbarLinks">
             <li>
                 <a href="#About" onClick={ () => handlePageChange("About")}>About</a>
             </li>

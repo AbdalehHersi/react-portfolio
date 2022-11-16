@@ -1,36 +1,25 @@
-import React, { useState } from "react";
-import NavbarTabs from "./NavbarTabs";
+import React from "react";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
+function PortfolioContainer({ currentIndexPage }) {
 
-
-function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
-    console.log(currentPage)
     const renderPage = () => {
-        if (currentPage === 'Projects') {
-            return <Projects />;
+        switch (currentIndexPage) {
+            case "Projects":
+                return <Projects />;
+            case "Resume":
+                return <Resume />;
+            case "Contact":
+                return <Contact />;
+            default: return <About />
         }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
-        return <About />;
-    };
-
-    const handlePageChange = (page) => {
-        console.log(page)
-        setCurrentPage(page)
     };
 
     return (
         <div>
-            <NavbarTabs handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
     )

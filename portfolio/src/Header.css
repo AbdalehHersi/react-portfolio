@@ -6,19 +6,25 @@
     --light-color: #d0db97;
     --darker-bg-color: #254d32;
     --dark-color: #181d27;
-  }
+}
 
 @media (max-width: 480px) {
     .headerName {
         font-family: 'PT Serif', serif;
         font-size: 4em;
     }
+
     .headerNameContainer {
         padding: 1em;
         border: solid 5px;
         border-color: var(--light-color);
+        border-style: double;
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .navbarLinks {
+        list-style: none;
     }
 }
