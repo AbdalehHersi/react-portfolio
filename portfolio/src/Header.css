@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: #3a7d44;
+    --lighter-bg-color: #69b578;
+    --light-color: #d0db97;
+    --darker-bg-color: #254d32;
+    --dark-color: #181d27;
+  }
+
+@media (max-width: 480px) {
+    .headerName {
+        font-family: 'PT Serif', serif;
+        font-size: 4em;
+    }
+    .headerNameContainer {
+        padding: 1em;
+        border: solid 5px;
+        border-color: var(--light-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
