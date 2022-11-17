@@ -29,6 +29,147 @@
     }
 }
 
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:1025px) {
+    .headerName {
+        font-family: 'PT Serif', serif;
+        font-size: 4em;
+        background-color: var(--dark-color);
+        border: solid 1rem;
+        border-color: var(--dark-color);
+    }
+
+    /* .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } */
+
+    .headerNameContainer {
+        height: 85vh;
+        margin: 1em;
+        border: solid 5px;
+        border-color: var(--light-color);
+        border-style: double;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        overflow: hidden;
+        flex-shrink: 2;
+    }
+
+    .headerNameContainer::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        background-image: url('../img/avatar.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        z-index: -10;
+    }
+
+    .navbarLinks {
+        list-style: none;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navAnchors {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background-color: var(--light-color);
+        border: 2px solid var(--darker-bg-color);
+        border-radius: 30px;
+        box-shadow: var(--darker-bg-color) 4px 4px 0 0;
+        color: var(--dark-color);
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 1rem 0 1em;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .navAnchors:hover {
+        background-color: var(--light-color);
+    }
+
+    .navAnchors:active {
+        box-shadow: var(--darker-bg-color) 2px 2px 0 0;
+        transform: translate(2px, 2px);
+    }
+
+    #aboutTooltip::after {
+        content: "About";
+        position: absolute;
+        background-color: var(--darker-bg-color);
+        padding: 1em;
+        border-radius: 0 20% 20% 20%;
+        font-family: 'PT Serif', serif;
+        bottom: -18%;
+    }
+
+    .navbarList {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .navbtn {
+        background-color: var(--light-color);
+        border: 2px solid var(--darker-bg-color);
+        border-radius: 30px;
+        box-shadow: var(--darker-bg-color) 4px 4px 0 0;
+        color: var(--dark-color);
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 1rem 0 1em;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .navbtn:hover {
+        background-color: var(--light-color);
+    }
+
+    .navbtn:active {
+        box-shadow: var(--darker-bg-color) 2px 2px 0 0;
+        transform: translate(2px, 2px);
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 480px) {
     .headerName {
         font-family: 'PT Serif', serif;
@@ -47,8 +188,6 @@
         overflow-x: hidden;
         flex-shrink: 2;
     }
-
-
 
     .navbarLinks {
         list-style: none;

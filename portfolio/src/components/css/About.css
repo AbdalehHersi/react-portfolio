@@ -8,8 +8,15 @@
     --dark-color: #181d27;
 }
 
-.aboutContainer > p {
+.aboutContainer>p {
     font-family: 'Mukta', sans-serif;
+}
+
+
+@media (min-width:1025px) {
+    #avatar {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -31,6 +38,7 @@
     #avatar {
         width: 100px;
         height: 100px;
+        border-radius: 50%;
     }
 
     .strong::before {

@@ -3,8 +3,6 @@ import "../components/css/Header.css";
 import NavbarTabs from "./NavbarTabs";
 import PortfolioContainer from "./PortfolioContainer";
 
-
-
 function Header() {
     const [currentPage, setCurrentPage] = useState('About');
 
