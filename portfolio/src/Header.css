@@ -22,9 +22,80 @@
         display: flex;
         justify-content: center;
         margin-bottom: 1rem;
+        flex-wrap: wrap;
     }
 
     .navbarLinks {
         list-style: none;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navAnchors {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background-color: var(--light-color);
+        border: 2px solid var(--darker-bg-color);
+        border-radius: 30px;
+        box-shadow: var(--darker-bg-color) 4px 4px 0 0;
+        color: var(--dark-color);
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 1rem 0 1em;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .navAnchors:hover {
+        background-color: var(--light-color);
+    }
+    
+    .navAnchors:active {
+        box-shadow: var(--darker-bg-color) 2px 2px 0 0;
+        transform: translate(2px, 2px);
+    }
+
+    .navbarList {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbtn {
+        background-color: var(--light-color);
+        border: 2px solid var(--darker-bg-color);
+        border-radius: 30px;
+        box-shadow: var(--darker-bg-color) 4px 4px 0 0;
+        color: var(--dark-color);
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 1rem 0 1em;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .navbtn:hover {
+        background-color: var(--light-color);
+    }
+    
+    .navbtn:active {
+        box-shadow: var(--darker-bg-color) 2px 2px 0 0;
+        transform: translate(2px, 2px);
     }
 }
