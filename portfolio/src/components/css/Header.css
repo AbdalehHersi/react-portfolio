@@ -8,6 +8,27 @@
     --dark-color: #181d27;
 }
 
+.onLoadHighlight {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+    animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #3a7d4439 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
 @media (max-width: 480px) {
     .headerName {
         font-family: 'PT Serif', serif;
@@ -23,7 +44,11 @@
         justify-content: center;
         margin-bottom: 1rem;
         flex-wrap: wrap;
+        overflow-x: hidden;
+        flex-shrink: 2;
     }
+
+
 
     .navbarLinks {
         list-style: none;
@@ -59,7 +84,7 @@
     .navAnchors:hover {
         background-color: var(--light-color);
     }
-    
+
     .navAnchors:active {
         box-shadow: var(--darker-bg-color) 2px 2px 0 0;
         transform: translate(2px, 2px);
@@ -93,7 +118,7 @@
     .navbtn:hover {
         background-color: var(--light-color);
     }
-    
+
     .navbtn:active {
         box-shadow: var(--darker-bg-color) 2px 2px 0 0;
         transform: translate(2px, 2px);

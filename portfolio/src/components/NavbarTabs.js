@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Header.css"
+import "../components/css/Header.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faAddressCard, faDiagramProject, faFile, faMessage } from '@fortawesome/free-solid-svg-icons'
 
@@ -7,7 +7,7 @@ import { faBars, faAddressCard, faDiagramProject, faFile, faMessage } from '@for
 
 function NavbarTabs({ handlePageChange }) {
 
-    const [currentvisibility, setVisibility] = useState(true);
+    const [currentvisibility, setVisibility] = useState(false);
 
     const handleToggle = () => {
         (currentvisibility) ? setVisibility(false) : setVisibility(true)
@@ -26,6 +26,7 @@ function NavbarTabs({ handlePageChange }) {
                     style={(currentvisibility) ? { visibility: "visible" } : { visibility: "hidden" }}
                     className="navAnchors"
                     id="about"
+                    aria-label="about section"
                     onClick={() => handlePageChange("About")}>
                     <FontAwesomeIcon icon={faAddressCard} />
                 </a>
@@ -35,6 +36,7 @@ function NavbarTabs({ handlePageChange }) {
                     style={(currentvisibility) ? { visibility: "visible" } : { visibility: "hidden" }}
                     className="navAnchors"
                     id="projects"
+                    aria-label="projects section"
                     onClick={() => handlePageChange("Projects")}>
                     <FontAwesomeIcon icon={faDiagramProject} />
                 </a>
@@ -44,6 +46,7 @@ function NavbarTabs({ handlePageChange }) {
                     style={(currentvisibility) ? { visibility: "visible" } : { visibility: "hidden" }}
                     className="navAnchors"
                     id="resume"
+                    aria-label="resume section"
                     onClick={() => handlePageChange("Resume")}>
                     <FontAwesomeIcon icon={faFile} />
                 </a>
@@ -53,6 +56,7 @@ function NavbarTabs({ handlePageChange }) {
                     style={(currentvisibility) ? { visibility: "visible" } : { visibility: "hidden" }}
                     className="navAnchors"
                     id="contact"
+                    aria-label="contact section"
                     onClick={() => handlePageChange("Contact")}>
                     <FontAwesomeIcon icon={faMessage} />
                 </a>

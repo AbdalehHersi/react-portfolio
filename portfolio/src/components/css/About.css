@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400&family=PT+Serif:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: #3a7d44;
+    --lighter-bg-color: #69b578;
+    --light-color: #d0db97;
+    --darker-bg-color: #254d32;
+    --dark-color: #181d27;
+}
+
+.aboutContainer > p {
+    font-family: 'Mukta', sans-serif;
+}
+
+@media (max-width: 480px) {
+    .aboutContainer {
+        border: solid 2px;
+        border-color: var(--lighter-bg-color);
+        border-style: dotted;
+        padding: 1em;
+        font-size: x-large;
+    }
+
+    .aboutHeader {
+        font-family: 'Mukta', sans-serif;
+        font-weight: 400;
+        text-decoration: underline;
+        padding-bottom: 1em;
+    }
+
+    #avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .strong::before {
+        background-color: var(--lighter-bg-color);
+        content: "";
+        position: absolute;
+        width: 34%;
+        height: 2%;
+        bottom: 3.1rem;
+        z-index: -1;
+        transform: rotate(-2deg);
+    }
+
+    .strong {
+        color: var(--darker-bg-color);
+    }
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  color: #69b578;
+  background: #254d32bc;
+}
+
+::selection {
+  color: #69b578;
+  background: #254d32bc;
+}
+
+:root {
+  --main-bg-color: #3a7d44;
+  --lighter-bg-color: #69b578;
+  --light-color: #d0db97;
+  --darker-bg-color: #254d32;
+  --dark-color: #181d27;
+}
+
+body {
+  background-color: var(--dark-color);
+  padding: 1rem;
+  color: var(--light-color);
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: var(--dark-color);
+    height: 100vh;
+  }
+}

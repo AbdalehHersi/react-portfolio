@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Header.css";
+import "../components/css/Header.css";
 import NavbarTabs from "./NavbarTabs";
 import PortfolioContainer from "./PortfolioContainer";
 
@@ -15,7 +15,7 @@ function Header() {
     return (
         <>
             <div className="headerNameContainer">
-                <h1 className="headerName">Abdaleh Hersi</h1>
+                <h1 className="headerName onLoadHighlight">Abdaleh Hersi</h1>
             </div>
             <NavbarTabs handlePageChange={handlePageChange}/>
             <PortfolioContainer currentIndexPage={currentPage}/>
