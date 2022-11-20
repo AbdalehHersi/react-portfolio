@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: #3a7d44;
+    --lighter-bg-color: #69b578;
+    --light-color: #d0db97;
+    --darker-bg-color: #254d32;
+    --dark-color: #181d27;
+}
+
+.container {
+    width: 95vw;
+    height: 100vh;
+    margin: 1rem;
+    border: solid 1px;
+    border-color: var(--lighter-bg-color);
+    border-style: dotted;
+}

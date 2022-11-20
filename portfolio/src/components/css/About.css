@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400&family=PT+Serif:wght@400;700&display=swap');
 
+
 :root {
     --main-bg-color: #3a7d44;
     --lighter-bg-color: #69b578;
@@ -16,6 +17,33 @@
 @media (min-width:1025px) {
     #avatar {
         display: none;
+    }
+
+    .aboutContainer {
+        border: solid 2px;
+        border-color: var(--lighter-bg-color);
+        border-style: dotted;
+        padding: 1em;
+        font-size: 2rem;
+    }
+
+    .aboutHeader {
+        font-family: 'Mukta', sans-serif;
+        font-weight: 400;
+        text-decoration: underline;
+        padding-bottom: 1em;
+    }
+
+    p::first-letter {
+        font-family: 'STIX Two Text', serif;
+        color: var(--main-bg-color);
+        font-size: 3.5rem;
+        font-style: italic;
+    }
+
+    div.aboutContainer > h1::first-letter {
+        color: var(--main-bg-color);
+        font-size: 5rem;
     }
 }
 

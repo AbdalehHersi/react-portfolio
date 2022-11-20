@@ -13,19 +13,7 @@ function NavbarTabs({ handlePageChange }) {
         (currentvisibility) ? setVisibility(false) : setVisibility(true)
     }
 
-    const handleTooltips = (data) => {
-        setTimeout(() => {
-            switch (data) {
-                case "About":
-                    let tooltip = document.getElementById("aboutTooltip");
-                    tooltip.dataset.tooltip = "about";
-                    break;
-                default:
-                    console.log("Default")
-                    break;
-            }
-        }, 2000)
-    }
+    
 
     return (
         <ul className="navbarLinks">
@@ -33,16 +21,14 @@ function NavbarTabs({ handlePageChange }) {
             <button className="navbtn" onClick={handleToggle}><FontAwesomeIcon icon={faBars} /></button>
 
             <li className="navbarList">
-                <div id="aboutTooltip">
+                <div>
                     <a
                     href="#About"
                     style={(currentvisibility) ? { visibility: "visible" } : { visibility: "hidden" }}
                     className="navAnchors"
                     id="about"
                     aria-label="about section"
-                    onClick={() => handlePageChange("About")}
-                    onMouseEnter={() => handleTooltips("About")}
-                    onMouseLeave={() => handleTooltips("None")}>
+                    onClick={() => handlePageChange("About")}>
                     <FontAwesomeIcon icon={faAddressCard} />
                 </a>
                 </div>
