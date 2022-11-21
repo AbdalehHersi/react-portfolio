@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=PT+Serif:wght@400;700&family=STIX+Two+Text:ital,wght@1,500&display=swap');
 
+:root {
+    --main-bg-color: #3a7d44;
+    --lighter-bg-color: #69b578;
+    --light-color: #d0db97;
+    --darker-bg-color: #254d32;
+    --dark-color: #181d27;
+}
+
 .ContactContainer {
     display: flex;
     justify-content: center;
@@ -29,4 +37,23 @@
     align-items: center;
     height: 2em;
     margin: 0.5em 0 0.5em 0;
+}
+
+#formBtn {
+    height: 3em;
+    width: 8em;
+    background-color: var(--darker-bg-color);
+    border: 1px solid;
+    border-color: var(--lighter-bg-color);
+    color: var(--light-color);
+    font-size: 0.5em;
+}
+
+#formBtn:hover {
+    color: var(--lighter-bg-color);
+    font-size: 0.51em;
+}
+
+#formBtn:active {
+    transform: scale(0.96);
 }

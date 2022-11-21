@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=PT+Serif:wght@400;700&family=STIX+Two+Text:ital,wght@1,500&display=swap');
+
+:root {
+    --main-bg-color: #3a7d44;
+    --lighter-bg-color: #69b578;
+    --light-color: #d0db97;
+    --darker-bg-color: #254d32;
+    --dark-color: #181d27;
+}
+
+#resumeBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'STIX Two Text', serif;
+}
+
+ul {
+    list-style: armenian;
+}
+
+li {
+    padding: 1em 0 1em 1.5em;
+    font-size: 1.5em;
+}
+
+li::first-letter {
+    color: var(--main-bg-color);
+    font-size: 2em;
+}
+
+a {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
