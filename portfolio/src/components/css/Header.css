@@ -31,7 +31,7 @@
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
-@media (min-width:1025px) {
+@media (min-width:481px) {
     .headerName {
         font-family: 'PT Serif', serif;
         font-size: 4em;

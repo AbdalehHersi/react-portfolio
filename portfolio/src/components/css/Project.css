@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=PT+Serif:wght@400;700&family=STIX+Two+Text:ital,wght@1,500&display=swap');
+
 :root {
     --main-bg-color: #3a7d44;
     --lighter-bg-color: #69b578;
@@ -6,11 +8,50 @@
     --dark-color: #181d27;
 }
 
-.container {
-    width: 95vw;
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
     height: 100vh;
     margin: 1rem;
-    border: solid 1px;
+    /* border: solid 1px;
     border-color: var(--lighter-bg-color);
-    border-style: dotted;
+    border-style: dotted; */
+    padding: 2em;
+    /* overflow: hidden; */
+}
+
+.projDetails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.projImg {
+    width: 70%;
+    height: 100%;
+}
+
+.projHeader {
+    font-family: 'STIX Two Text', serif;
+}
+
+.projh2 {
+    font-family: 'PT Serif', serif
+}
+
+.githubIcon {
+    padding: 1em;
+    width: 3rem;
+    height: 3rem;
 }
