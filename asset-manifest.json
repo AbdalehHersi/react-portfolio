@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AbdalehHersi/react-portfolio/static/css/main.4026d6d1.css",
-    "main.js": "/AbdalehHersi/react-portfolio/static/js/main.96c29922.js",
-    "static/media/avatar.jpg": "/AbdalehHersi/react-portfolio/static/media/avatar.de16b34934533ce5dc5e.jpg",
-    "static/media/project2.png": "/AbdalehHersi/react-portfolio/static/media/project2.2394a217ba3909eaa7c9.png",
-    "static/media/project1.png": "/AbdalehHersi/react-portfolio/static/media/project1.54bebfadc95556488b58.png",
-    "static/media/calender.png": "/AbdalehHersi/react-portfolio/static/media/calender.c4f5b6255d47e3c6271f.png",
-    "static/media/leynor.png": "/AbdalehHersi/react-portfolio/static/media/leynor.810f2841e62884f42458.png",
-    "static/media/diceroll.png": "/AbdalehHersi/react-portfolio/static/media/diceroll.a5c3efba447531c10fa3.png",
-    "static/media/congenial.png": "/AbdalehHersi/react-portfolio/static/media/congenial.393dbd780fd9a90da406.png",
-    "static/media/webpageIcon.png": "/AbdalehHersi/react-portfolio/static/media/webpageIcon.72ff7e5094c7b78991b7.png",
-    "static/media/WPCV.pdf": "/AbdalehHersi/react-portfolio/static/media/WPCV.5f7c402ac438238d154b.pdf",
-    "static/media/StackOverflow.png": "/AbdalehHersi/react-portfolio/static/media/StackOverflow.579cff432dec19bc3d23.png",
-    "index.html": "/AbdalehHersi/react-portfolio/index.html",
-    "main.4026d6d1.css.map": "/AbdalehHersi/react-portfolio/static/css/main.4026d6d1.css.map",
-    "main.96c29922.js.map": "/AbdalehHersi/react-portfolio/static/js/main.96c29922.js.map"
+    "main.css": "/portfolio/static/css/main.e1681e2f.css",
+    "main.js": "/portfolio/static/js/main.bd461bac.js",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.de16b34934533ce5dc5e.jpg",
+    "static/media/project2.png": "/portfolio/static/media/project2.2394a217ba3909eaa7c9.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.54bebfadc95556488b58.png",
+    "static/media/calender.png": "/portfolio/static/media/calender.c4f5b6255d47e3c6271f.png",
+    "static/media/leynor.png": "/portfolio/static/media/leynor.810f2841e62884f42458.png",
+    "static/media/diceroll.png": "/portfolio/static/media/diceroll.a5c3efba447531c10fa3.png",
+    "static/media/congenial.png": "/portfolio/static/media/congenial.393dbd780fd9a90da406.png",
+    "static/media/webpageIcon.png": "/portfolio/static/media/webpageIcon.72ff7e5094c7b78991b7.png",
+    "static/media/WPCV.pdf": "/portfolio/static/media/WPCV.5f7c402ac438238d154b.pdf",
+    "static/media/StackOverflow.png": "/portfolio/static/media/StackOverflow.579cff432dec19bc3d23.png",
+    "index.html": "/portfolio/index.html",
+    "main.e1681e2f.css.map": "/portfolio/static/css/main.e1681e2f.css.map",
+    "main.bd461bac.js.map": "/portfolio/static/js/main.bd461bac.js.map"
   },
   "entrypoints": [
-    "static/css/main.4026d6d1.css",
-    "static/js/main.96c29922.js"
+    "static/css/main.e1681e2f.css",
+    "static/js/main.bd461bac.js"
   ]
 }
