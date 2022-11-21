@@ -14,7 +14,39 @@ const data = [
         projImage: require("../img/project2.png"),
         gitRepo: "https://github.com/AbdalehHersi/icebreak-my-date",
         id: 2
-    }
+    },
+    {
+        title: "Diceroll Password Generator",
+        description: "Generate a random password for extra security",
+        url: "https://abdalehhersi.github.io/diceroll-password-generator/Develop/",
+        projImage: require("../img/diceroll.png"),
+        gitRepo: "https://github.com/AbdalehHersi/diceroll-password-generator",
+        id: 3
+    },
+    {
+        title: "Leynor Octo Mawson",
+        description: "Multiple choice quiz with basic questions for Javascript beginners",
+        url: "https://abdalehhersi.github.io/leynor-octo-mawson/",
+        projImage: require("../img/leynor.png"),
+        gitRepo: "https://github.com/AbdalehHersi/leynor-octo-mawson",
+        id: 4
+    },
+    {
+        title: "Planner Prism",
+        description: "A work day planner that helps you get your ducks in order",
+        url: "https://abdalehhersi.github.io/planner-prism/",
+        projImage: require("../img/calender.png"),
+        gitRepo: "https://github.com/AbdalehHersi/planner-prism",
+        id: 5
+    },
+    {
+        title: "Congenial note taker",
+        description: "An application that lets you take and save notes using Express and Heroku",
+        url: "https://morning-anchorage-08798.herokuapp.com/",
+        projImage: require("../img/congenial.png"),
+        gitRepo: "https://github.com/AbdalehHersi/congenial-note-taker",
+        id: 6
+    },
 ]
 
 /* 
