@@ -70,7 +70,7 @@ function Contact() {
                     <button type="submit" id="formBtn">Send</button>
                 </div>
             </form>
-            <h6 id="errorMessage">Error message</h6>
+            <h6 id="errorMessage"> </h6>
         </div>
     )
 }
