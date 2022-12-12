@@ -8,12 +8,20 @@ const data = [
         id: 1
     },
     {
+        title: "Mon Frigo",
+        description: "Ever thought, 'What can I make with the ingredients in my fridge?'",
+        url: "https://maifrigo-recipe-app.herokuapp.com/",
+        projImage: require("../img/monfrigo.png"),
+        gitRepo: "https://github.com/Laura-Kam/Monfrigo",
+        id: 2
+    },
+    {
         title: "Icebreak My Date",
         description: "An application that provides conversation starters for your next date",
         url: "https://immense-journey-92545.herokuapp.com/",
         projImage: require("../img/project2.png"),
         gitRepo: "https://github.com/AbdalehHersi/icebreak-my-date",
-        id: 2
+        id: 3
     },
     {
         title: "Diceroll Password Generator",
@@ -21,14 +29,6 @@ const data = [
         url: "https://abdalehhersi.github.io/diceroll-password-generator/Develop/",
         projImage: require("../img/diceroll.png"),
         gitRepo: "https://github.com/AbdalehHersi/diceroll-password-generator",
-        id: 3
-    },
-    {
-        title: "Leynor Octo Mawson",
-        description: "Multiple choice quiz with basic questions for Javascript beginners",
-        url: "https://abdalehhersi.github.io/leynor-octo-mawson/",
-        projImage: require("../img/leynor.png"),
-        gitRepo: "https://github.com/AbdalehHersi/leynor-octo-mawson",
         id: 4
     },
     {
