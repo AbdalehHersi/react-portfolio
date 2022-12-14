@@ -18,7 +18,6 @@ function Resume() {
                 <li>SQL</li>
                 <li>Object Relational Mapping (ORM)</li>
                 <li>MVC paradigm</li>
-                <li>MongoDB</li>
                 <li>PWA</li>
                 <li>React</li>
                 <li>MongoDB</li>
