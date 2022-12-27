@@ -33,7 +33,7 @@ function Contact() {
                     errorM.classList.remove("ErrorShown");
                     errorM.classList.add("ErrorHidden")
                     errorM.textContent = "";
-                }else {
+                } else {
                     errorM.classList.remove("ErrorHidden");
                     errorM.textContent = "You need to enter a valid email";
                     errorM.classList.add("ErrorShown");
@@ -47,7 +47,8 @@ function Contact() {
 
     return (
         <div className="ContactContainer">
-            <form action="" method="get" className="formClass" id="formID">
+            <h1 className="Email">You can email me on <a href="mailto:hersiabdaleh@gmail.com" id="email">hersiabdaleh@gmail.com</a>.</h1>
+            {/* <form action="" method="get" className="formClass" id="formID">
                 <div className="formFields">
                     <label htmlFor="name">Enter your name: </label>
                     <input type="text" name="name" id="name" required onBlur={() => {
@@ -70,7 +71,7 @@ function Contact() {
                     <button type="submit" id="formBtn">Send</button>
                 </div>
             </form>
-            <h6 id="errorMessage"> </h6>
+            <h6 id="errorMessage"> </h6> */}
         </div>
     )
 }

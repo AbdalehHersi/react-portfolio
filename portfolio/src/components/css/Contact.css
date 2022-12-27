@@ -57,3 +57,7 @@
 #formBtn:active {
     transform: scale(0.96);
 }
+
+#email, .Email {
+    font-size: 2rem;
+}

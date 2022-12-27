@@ -1,11 +1,11 @@
 import React from "react";
-import CV from "../misc/WPCV.pdf"
+import CV from "../misc/Abdaleh Hersi - Resume.pdf"
 import "../css/Resume.css"
 
 function Resume() {
     return (
         <div id="resumeBody">
-            <a href={CV} alt="Cv" download="CV">Download My CV (Work in Progress)</a>
+            <a href={CV} alt="Cv" download="CV">Download My CV</a>
             <ul>
                 <h1>Skills</h1>
                 <li>HTML, CSS, Javascript</li>
