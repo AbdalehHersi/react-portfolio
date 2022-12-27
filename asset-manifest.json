@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.297ac0f4.css",
-    "main.js": "/react-portfolio/static/js/main.b6ce0466.js",
+    "main.css": "/react-portfolio/static/css/main.605e3292.css",
+    "main.js": "/react-portfolio/static/js/main.42599a59.js",
     "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.de16b34934533ce5dc5e.jpg",
     "static/media/project2.png": "/react-portfolio/static/media/project2.2394a217ba3909eaa7c9.png",
     "static/media/project1.png": "/react-portfolio/static/media/project1.54bebfadc95556488b58.png",
@@ -10,14 +10,14 @@
     "static/media/congenial.png": "/react-portfolio/static/media/congenial.393dbd780fd9a90da406.png",
     "static/media/monfrigo.png": "/react-portfolio/static/media/monfrigo.fa910fbda6e831c8e13c.png",
     "static/media/webpageIcon.png": "/react-portfolio/static/media/webpageIcon.72ff7e5094c7b78991b7.png",
-    "static/media/WPCV.pdf": "/react-portfolio/static/media/WPCV.5f7c402ac438238d154b.pdf",
+    "static/media/Abdaleh Hersi - Resume.pdf": "/react-portfolio/static/media/Abdaleh Hersi - Resume.0b4bdb629669e246b003.pdf",
     "static/media/StackOverflow.png": "/react-portfolio/static/media/StackOverflow.579cff432dec19bc3d23.png",
     "index.html": "/react-portfolio/index.html",
-    "main.297ac0f4.css.map": "/react-portfolio/static/css/main.297ac0f4.css.map",
-    "main.b6ce0466.js.map": "/react-portfolio/static/js/main.b6ce0466.js.map"
+    "main.605e3292.css.map": "/react-portfolio/static/css/main.605e3292.css.map",
+    "main.42599a59.js.map": "/react-portfolio/static/js/main.42599a59.js.map"
   },
   "entrypoints": [
-    "static/css/main.297ac0f4.css",
-    "static/js/main.b6ce0466.js"
+    "static/css/main.605e3292.css",
+    "static/js/main.42599a59.js"
   ]
 }
